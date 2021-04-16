@@ -1,1 +1,33 @@
+Notes:
+-Adjust Lab 9 code
+-Hard code in recourses
+-Gather wood and stone to build a strong fort
+-Gather wool for making a bed
+-Have fatigue level
+-Avoid/fight squirrels (Only happens at night), can request a night interrupt to change behavior
+-Can kill opponent (Save this for only if we have time at the end)
+-Put chest inside fort to store materials
+-Could break opponents bed
 
+Pseudocode:
+-Get wool and wood to build bed
+-Solve puzzle
+-Build bed around water
+
+Repeat 3x {
+-Get 8 stone
+-Solve 4 puzzles
+-Build 4 walls
+}
+
+-Get 7 stone
+-Get 1 wood
+-Solve 4 puzzles
+-Build 3 walls and 1 door
+-Send fort location (Possibly everyday)
+
+-Branch if nighttime and fort not done, move to center/run around 
+to avoid squirrels/other bot (hopefully just the first night)
+-Branch if need water, then go get water to rehydrate
+-Branch if wall is too damaged, break wall and replace it
+-Branch nothing to do, solve puzzles in fort
